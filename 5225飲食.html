@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>5225 飲食</title>
+<meta charset="UTF-8">
+<meta charset="EUC-kr">
+
+<style>
+#rty{width: 100%;height:180px;}
+#food{position: absolute;top: 300px;left: 200px}
+#drink{position: absolute;top: 1700px;height: 50px;width: 100%;text-align: center;color: midnightblue;font-family: DFKai-sb;font-size: 25px}
+h1{color: black;font-family: DFKai-sb;}
+h2{color: black;font-family: DFKai-sb;}
+a:link{color: black;text-decoration: none;}
+a:visited{color: black;text-decoration: none;}
+a:hover{color: black;text-decoration: none;}
+a:active{color: black;text-decoration: none;}
+
+.wsx {position: relative; display: inline-block;}
+.dropbtn {background-color: lightyellow;font-family: DFKai-sb; padding: 10px;font-size: 25px; border: none;}
+.dropdown-content {display: none; position: absolute; background-color: lightblue; min-width: 160px; z-index: 1;}
+.dropdown-content a {color: black; padding: 12px 16px; text-decoration: none; display: block;}
+.show {display: block;}
+
+</style>
+
+
+</head>
+<body style="background-color: lightyellow">
+<div id="rty">
+		<h1 style="text-align: center;font-size: 200%">
+			<img src="5225.jpg" height="200"/>
+		</h1></div><!--上方-->
+
+<table style="position: absolute; font-family: DFKai-sb;height: 80px;width: 400px;font-size: 25px;left:200px">
+	<tr>
+<td><div class="wsx"><button onclick="qq()" class="dropbtn"><a href="5225.html"><b>首頁</a></button></div>
+    
+<script>
+function qq() 
+{document.getElementById("qq").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+</script></td>
+
+<td><div class="wsx"><button onclick="aa()" class="dropbtn"><a href="5225住宿.html"><b>住宿</a></button></div>
+    <div id="aa" class="dropdown-content">
+    <a href="#roomone">單人房</a><a href="#roomtwo">雙人房</a><a href="#roomfour">四人房</a></div>
+    
+<script>
+function aa() 
+{document.getElementById("aa").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+</script></td>
+ 
+<td><div class="wsx"><button onclick="zz()" class="dropbtn"><a href="5225飲食.html"><b>飲食</a></button></div>
+<div id="zz" class="dropdown-content">
+	<a href="#food">餐點</a>
+  <a href="#drink">飲品</a></div>
+
+	<script>
+function zz()
+{document.getElementById("zz").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+  </script>
+</td>
+
+
+<td><div class="wsx"><button onclick="xx()" class="dropbtn"><a href="5225地圖.html"><b>地圖</a></button></div>
+<div id="xx" class="dropdown-content">
+<a href="#5225map">5225</a><a href="#trainmap">池上火車站</a><a href="#ricemap">伯朗大道</a>
+
+<script>
+function xx()
+{document.getElementById("xx").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+  </script>
+</td>
+
+
+<td><div class="wsx"><button onclick="cc()" class="dropbtn"><a href="5225關於.html"><b>關於</a></button></div>
+<div id="cc" class="dropdown-content">
+<a href="#boss">民宿主人</a><a href="#family">我們的家庭</a>
+
+<script>
+function cc() 
+{document.getElementById("cc").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+  </script>
+</td>
+</tr>
+</table>
+
+<div id="food">
+  <h1>餐點</h1>
+  <h2>池上便當</h2>
+  <br>
+  <table style="width: 1500px;font-family: DFKai-sb;text-align: center;font-size: 20px">
+    <tr>
+      <td><a href="https://www.google.com/maps/place/%E5%AE%B6%E9%84%89%E6%B1%A0%E4%B8%8A%E9%A3%AF%E5%8C%85/@23.1257522,121.2177714,17z/data=!3m1!4b1!4m5!3m4!1s0x346f0c8b2976af01:0x5d81447d1cd62926!8m2!3d23.1257522!4d121.2199601">家鄉池上飯包</a></td>
+      <td><a href="https://www.google.com/maps/place/%E5%85%A8%E7%BE%8E%E8%A1%8C%E6%B1%A0%E4%B8%8A%E4%BE%BF%E7%95%B6/@23.1256473,121.2175317,17z/data=!3m1!4b1!4m5!3m4!1s0x346f0c8b28082a43:0x8380a0a09b976f75!8m2!3d23.1256473!4d121.2197204">全美行池上便當</a></td>
+      <td><a href="https://www.google.com/maps/place/%E6%82%9F%E9%A5%95%E6%B1%A0%E4%B8%8A%E9%A3%AF%E5%8C%85%E6%96%87%E5%8C%96%E6%95%85%E4%BA%8B%E9%A4%A8/@23.1242563,121.1508663,12z/data=!4m8!1m2!2m1!1z5rGg5LiK5L6_55W2IOaCn-mllQ!3m4!1s0x346f0c8b139b8bb9:0x2a75ac20822c5de8!8m2!3d23.1242563!4d121.2209041">悟饕池上飯包文化故事館</a></td>
+      <td><a href="https://www.google.com/maps/place/%E5%A4%A7%E5%9C%B0%E9%A3%AF%E5%BA%97/@23.1225652,121.216834,17z/data=!3m1!4b1!4m5!3m4!1s0x346f0c8a8808ae6f:0x59b261760a1289f5!8m2!3d23.1225652!4d121.2190227">大地飯店</a></td>
+    </tr>
+
+    <tr>
+      <td><img src="http://blog.liontravel.com/resserver.aspx?blogId=1991&resource=238875-IMG_0177.jpg" height="250px"></td>
+      <td><img src="http://img028.tw.tranews.com/img/Y014491/images/Info/Y014491000001_2_1.jpg" height="250px"></td>
+      <td><img src="https://3.bp.blogspot.com/-t9ijouLhkdk/WMgjlwYwldI/AAAAAAABR1g/xGBSMNcR7Zwhf-0AcLQ8sGPIsPlIm0okwCPcB/s678/01.jpg" height="250px"></td>
+      <td><img src="http://pic.pimg.tw/ilovetandl/1307842036-fecd38a839212df91aa5e8c9d1816942.jpg" height="250px"></td>
+    </tr>
+
+  </table>
+<table style="width: 1350px">
+  <tr>
+    <td><h2><a href="https://blog.xuite.net/maomi/Food01/433135064-%5B%E5%8F%B0%E6%9D%B1%E6%B1%A0%E4%B8%8A%5D+%E5%A4%A7%E6%B1%A0%E8%B1%86%E7%9A%AE%E5%BA%97+2018%EF%BC%9A%E6%B1%A0%E4%B8%8A%E5%BF%85%E5%90%83%E7%BE%8E%E5%91%B3%E6%89%8B%E5%B7%A5%E7%8F%BE%E4%BD%9C%E8%B1%86%E7%9A%AE%C2%A03474+%28%E6%8E%A8%E8%96%A6%29">大池豆皮店</a></h2></td>
+<td><h2><a href="https://blog.xuite.net/maomi/Food01/471594638-%5B%E5%8F%B0%E6%9D%B1%E6%B1%A0%E4%B8%8A%5D+%E7%A6%8F%E5%8E%9F%E8%B1%86%E8%85%90%E5%BA%97%EF%BC%9A%E8%B6%85%E8%BB%9F%E5%AB%A9%E7%82%B8%E8%87%AD%E8%B1%86%E8%85%90%E8%88%87%E9%A6%99%E7%B6%BF%E8%B1%86%E8%8A%B1+2921+%28%E6%8E%A8%E8%96%A6%29">福原豆花</a></h2>
+  <td><h2><a href="https://blake.com.tw/blog/post/jiben">吉本肉圓</a></h2></td>
+</td>
+</tr>
+<tr>
+  <td><img src="https://i0.wp.com/www.zztaitung.com/wp-content/uploads/2015/10/%E5%8F%B0%E6%9D%B1-%E5%A4%A7%E6%B1%A0%E8%B1%86%E7%9A%AE%E5%BA%97-19.jpg?resize=800%2C533" height="250px"></td>
+  <td><img src="http://cdn.walkerland.com.tw/images/upload/poi/p39824/m26120/772df8422811f2aff907083adb49cfb2d572af12.jpg" height="250px"></td>
+  <td><img src="https://farm5.staticflickr.com/4378/36822545055_b98192fc4e_c.jpg" height="250px"></td>
+</tr>
+</table>
+  <h1>飲品</h1>
+  <h2>飲料店(推薦)</h2>
+  <table style="width: 1350px">
+    <tr>
+      <td><h2>丁哥茶飲</h2></td>
+      <td><h2>鮮茶道</h2></td>
+      <td><h2>茶世界</h2></td>
+    </tr>
+
+    <tr>
+      <td><img src="https://www.bigfang.tw/wp-content/uploads/2017/09/1504254204-dc183000dd60e83c0affc6d34edcce70.jpg" height="250px"></td>
+      <td><img src="https://scontent-frx5-1.cdninstagram.com/vp/7e4cdd96a523784fe703ef078f2b3b5b/5CD27602/t51.2885-15/e35/47235682_364509940761576_806736662704637208_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&se=7&ig_cache_key=MTkzMzE2MjY3NjAyNTE1MzcxNA%3D%3D.2" height="250px"></td>
+      <td><img src="https://pbs.twimg.com/media/DaQ4UCTUMAEcnGT.jpg" height="250px"></td>
+    </tr>
+  </table>
+  <br><br>
+</div>
+<div id="drink">
+  歡迎光臨池上 5225祝您旅途愉快
+</div>
+
+</body>
