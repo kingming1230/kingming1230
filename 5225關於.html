@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>5225 關於</title>
+<meta charset="UTF-8">
+<meta charset="EUC-kr">
+
+<style>
+#rty{width: 100%;height:180px;}
+#about{position: absolute;left: 200px;top: 300px;font-family: DFKai-sb}
+#we{position: absolute;top: 1000px;background-color: lightblue;height: 50px;width: 100%}
+a:link{color: black;text-decoration: none;}
+a:visited{color: black;text-decoration: none;}
+a:hover{color: black;text-decoration: none;}
+a:active{color: black;text-decoration: none;}
+
+.wsx {position: relative; display: inline-block;}
+.dropbtn {background-color: lightyellow;font-family: DFKai-sb; padding: 10px;font-size: 25px; border: none;}
+.dropdown-content {display: none; position: absolute; background-color: lightblue; min-width: 160px; z-index: 1;}
+.dropdown-content a {color: black; padding: 12px 16px; text-decoration: none; display: block;}
+.show {display: block;}
+
+</style>
+
+
+</head>
+<body style="background-color: lightyellow">
+<div id="rty">
+		<h1 style="text-align: center;font-size: 200%">
+			<img src="5225.jpg" height="200"/>
+		</h1></div><!--上方-->
+
+<table style="position: absolute; font-family: DFKai-sb;height: 80px;width: 400px;font-size: 25px;left:200px">
+	<tr>
+<td><a href="5225.html"><div class="wsx"><button onclick="qq()" class="dropbtn"><b>首頁</button></div></a>
+    
+<script>
+function qq() 
+{document.getElementById("qq").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+</script></td>
+
+<td><a href="5225住宿.html"><div class="wsx"><button onclick="aa()" class="dropbtn"><b>住宿</button></div></a>
+    <div id="aa" class="dropdown-content">
+    <a href="#roomone">單人房</a><a href="#roomtwo">雙人房</a><a href="#roomfour">四人房</a></div>
+    
+<script>
+function aa() 
+{document.getElementById("aa").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+</script></td>
+ 
+<td><a href="5225飲食.html"><div class="wsx"><button onclick="zz()" class="dropbtn"><b>飲食</button></div></a>
+<div id="zz" class="dropdown-content">
+	<a href="#food">餐點</a><a href="#drink">飲品</a></div>
+
+	<script>
+function zz()
+{document.getElementById("zz").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+  </script>
+</td>
+
+
+<td><a href="5225地圖.html"><div class="wsx"><button onclick="xx()" class="dropbtn"><b>地圖</button></div></a>
+<div id="xx" class="dropdown-content">
+<a href="#5225map">5225</a><a href="#trainmap">池上火車站</a><a href="#ricemap">池上便當</a>
+
+<script>
+function xx()
+{document.getElementById("xx").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+  </script>
+</td>
+
+
+<td><a<div class="wsx"><button onclick="cc()" class="dropbtn"><b>關於</button></div>
+<div id="cc" class="dropdown-content">
+<a href="#boss">民宿主人</a><a href="#family">我們的家庭</a>
+
+<script>
+function cc() 
+{document.getElementById("cc").classList.toggle("show");}
+window.onclick = function(event) 
+{if (!event.target.matches('.dropbtn')) 
+   {var dropdowns = document.getElementsByClassName("dropdown-content");var i;for (i = 0; i < dropdowns.length; i++) 
+      {var openDropdown = dropdowns[i];if (openDropdown.classList.contains('show')) {openDropdown.classList.remove('show');}}}}
+  </script>
+</td>
+</tr>
+</table>
+
+<div id="about">
+  <h1>臉書社群</h1>
+  <img src="5225fb.jpg" height="450px">
+</div>
+<br>
+<div id="we"></div>
+
+</body>
